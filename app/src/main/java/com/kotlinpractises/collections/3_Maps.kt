@@ -1,5 +1,8 @@
 package com.kotlinpractises.collections
 
+import android.annotation.SuppressLint
+
+@SuppressLint("SuspiciousIndentation")
 fun main(){
     //Data is stored in term of key value pair
     //Ex1 : Immutable

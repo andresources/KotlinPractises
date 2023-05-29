@@ -47,5 +47,4 @@ fun main(){
         println("Element : ${mList.elementAt(index)}")
     }
 
-
 }
