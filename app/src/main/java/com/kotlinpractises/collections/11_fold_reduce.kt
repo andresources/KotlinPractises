@@ -6,7 +6,7 @@ fun main(){
     println("$myTotal")
 
     val myTotal1 = myList.reduce{ first,second -> first+second }
-    println("$myTotal")
+    println("$myTotal1")
 
     var mySList: List<String> = listOf<String>("a","b","c")
     val fString = mySList.foldRight("----Elements Are----"){ initVal,res -> res + " - " +initVal }
@@ -14,4 +14,6 @@ fun main(){
 
     val fString1 = mySList.reduce(){ first,second -> first + " - " +second }
     println(fString1)
+
+
 }
