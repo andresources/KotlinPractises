@@ -7,7 +7,7 @@ fun main(){
     //Names to uppercase
     list
         .map {
-            it.toUpperCase()
+            it.uppercase()
         }
         .forEach {
             println("$it")
