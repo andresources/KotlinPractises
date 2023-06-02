@@ -9,8 +9,10 @@ class Employee{
 }
 fun main(){
    var e1 = Employee()
-    e1.also { employee ->
+    e1.also {
+        employee ->
         employee.name = "KSR"
         employee.age = "20"
     }
+    println(e1.name)
 }

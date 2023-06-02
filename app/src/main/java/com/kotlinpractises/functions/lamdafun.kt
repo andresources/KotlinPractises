@@ -32,9 +32,9 @@ fun main(){//*****A function is a data type in kotlin
     val myRes = addTwoNumbersShotHand
     println("${myRes(100,200)}")
 
+
     var result = calculateGrade
     println("${ result(70)}")
-
 
 }
 

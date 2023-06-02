@@ -17,4 +17,5 @@ fun main(){
         name = "KSR"
         age = "20"
     }
+    println(e.name)
 }
