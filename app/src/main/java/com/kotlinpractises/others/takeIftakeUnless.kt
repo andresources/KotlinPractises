@@ -2,10 +2,12 @@ package com.kotlinpractises.others
 
 fun main(){
     var num = getLatency()
-    if (num<20) println("Join Game1")
+    if (num<10) println("if part - $num") else println("else part - $num")
 
-    getLatency()?.takeIf { it<20 }?.let {
-        println("Join Game2")
+    num?.takeIf { it<10 }?.let {
+        println("Join Game $it")
+    }?:run{
+        println("Sorry Low Internet...")
     }
 }
 
