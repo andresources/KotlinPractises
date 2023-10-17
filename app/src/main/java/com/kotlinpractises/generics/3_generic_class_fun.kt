@@ -1,7 +1,7 @@
 package com.kotlinpractises.generics
 
 class MyOperClass<A,B>{
-    fun calFun(data1: A,data2: B){
+    fun <A,B>calFun(data1: A,data2: B){
         println("$data1 - $data2")
     }
 }
