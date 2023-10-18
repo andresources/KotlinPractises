@@ -5,6 +5,16 @@ fun main(){
     list.myHighOrderFun { it % 2 ==0 }.let {
         println(it)
     }
+
+    list.myHighOrderFun{
+        condition(it)
+    }.let {
+        println(it)
+    }
+}
+
+val condition: (Int) -> Boolean = { num ->
+    num % 2 ==0
 }
 
 fun <T>List<T>.myHighOrderFun(cond:(T)->Boolean) : List<T> {

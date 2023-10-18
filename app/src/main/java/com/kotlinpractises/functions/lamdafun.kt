@@ -54,7 +54,7 @@ var addTwoNumbersShotHand = { num1:Int,num2:Int ->
     num1 + num2
 }
 
-val calculateGrade = { grade:Int ->
+val calculateGrade:(Int)->String = { grade ->
     when(grade){
         in 0..40 -> "Fail"
         in 41..60 -> "Second"
